@@ -1,7 +1,7 @@
 {
  
   "features": {
-    "ghcr.io/devcontainers/features/java:21": {
+    "ghcr.io/devcontainers/features/java:1.6.0": {
        "version": "21",
        "installGradle": "false",
        "installMaven": "true"
@@ -21,7 +21,8 @@
         "vscjava.vscode-java-test",
         "vscjava.vscode-maven",
         "bierner.markdown-mermaid",
-        "nopeslide.vscode-drawio-plugin-mermaid"
+        "nopeslide.vscode-drawio-plugin-mermaid",
+        "Github.copilot"
       ]
     }
   }
