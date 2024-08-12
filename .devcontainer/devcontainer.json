@@ -1,9 +1,12 @@
 {
-  "image": "ghcr.io/devcontainers-contrib/features/maven-sdkman:2",
-  "jdkVersion": 21,
+ 
   "features": {
-    "maven": "latest"
-  },
+    "ghcr.io/devcontainers/features/java:1": {
+       "version": "21",
+       "installGradle": "true",
+       "installMaven": "true"
+   }
+	},
 
   // Configure tool-specific properties.
   "customizations": {
