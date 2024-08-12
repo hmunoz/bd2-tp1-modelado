@@ -1,9 +1,9 @@
 {
  
   "features": {
-    "ghcr.io/devcontainers/features/java:1": {
+    "ghcr.io/devcontainers/features/java:21": {
        "version": "21",
-       "installGradle": "true",
+       "installGradle": "false",
        "installMaven": "true"
    }
 	},
@@ -20,11 +20,6 @@
         "vscjava.vscode-java-pack",
         "vscjava.vscode-java-test",
         "vscjava.vscode-maven",
-        "Pivotal.vscode-boot-dev-pack",
-        "vmware.vscode-spring-boot",
-        "vscjava.vscode-spring-boot-dashboard",
-        "vscjava.vscode-spring-initializr",
-        "ms-azuretools.vscode-docker",
         "bierner.markdown-mermaid",
         "nopeslide.vscode-drawio-plugin-mermaid"
       ]
